@@ -1,0 +1,516 @@
+[
+  [
+    {
+        "code": "Backquote",
+        "key": "`",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit1",
+        "key": "1",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit2",
+        "key": "2",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit3",
+        "key": "3",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit4",
+        "key": "4",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit5",
+        "key": "5",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit6",
+        "key": "6",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit7",
+        "key": "7",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit8",
+        "key": "8",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit9",
+        "key": "9",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Digit0",
+        "key": "0",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Minus",
+        "key": "-",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Equal",
+        "key": "=",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    },
+    {
+        "code": "Backspace",
+        "key": "Backspace",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false
+    }
+],
+[
+  {
+      "code": "Tab",
+      "key": "Tab",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyQ",
+      "key": "q",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyW",
+      "key": "w",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyE",
+      "key": "e",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyR",
+      "key": "r",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyT",
+      "key": "t",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyY",
+      "key": "y",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyU",
+      "key": "u",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyI",
+      "key": "i",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyO",
+      "key": "o",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyP",
+      "key": "p",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "BracketLeft",
+      "key": "[",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "BracketRight",
+      "key": "]",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Backslash",
+      "key": "\\",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  }
+],
+[
+  {
+      "code": "CapsLock",
+      "key": "CapsLock",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyA",
+      "key": "a",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyS",
+      "key": "s",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyD",
+      "key": "d",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyF",
+      "key": "f",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyG",
+      "key": "g",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyH",
+      "key": "h",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyJ",
+      "key": "j",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyK",
+      "key": "k",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyL",
+      "key": "l",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Semicolon",
+      "key": ";",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Quote",
+      "key": "'",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Enter",
+      "key": "Enter",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  }
+],
+[
+  {
+      "code": "ShiftLeft",
+      "key": "Shift",
+      "shift": true,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyZ",
+      "key": "z",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyX",
+      "key": "x",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyC",
+      "key": "c",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyV",
+      "key": "v",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyB",
+      "key": "b",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyN",
+      "key": "n",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "KeyM",
+      "key": "m",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Comma",
+      "key": ",",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Period",
+      "key": ".",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "Slash",
+      "key": "/",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "ArrowUp",
+      "key": "ArrowUp",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "ShiftRight",
+      "key": "Shift",
+      "shift": true,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  }
+],
+[
+  {
+      "code": "ControlLeft",
+      "key": "Control",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": true
+  },
+  {
+      "code": "MetaLeft",
+      "key": "Meta",
+      "shift": false,
+      "meta": true,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "AltLeft",
+      "key": "Alt",
+      "shift": false,
+      "meta": false,
+      "alt": true,
+      "ctrl": false
+  },
+  {
+      "code": "Space",
+      "key": " ",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "AltRight",
+      "key": "Alt",
+      "shift": false,
+      "meta": false,
+      "alt": true,
+      "ctrl": false
+  },
+  {
+      "code": "ArrowLeft",
+      "key": "ArrowLeft",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "ArrowDown",
+      "key": "ArrowDown",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "ArrowRight",
+      "key": "ArrowRight",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false
+  },
+  {
+      "code": "ControlRight",
+      "key": "Control",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": true
+  }
+]
+]
