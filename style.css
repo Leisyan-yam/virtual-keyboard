@@ -65,3 +65,7 @@ body {
 .backslash {
   width: 48px;
 }
+
+.active {
+  background-color: rgb(215, 170, 170);
+}
