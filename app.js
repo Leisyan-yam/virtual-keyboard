@@ -3,6 +3,7 @@ const specials = [ "Tab", "CapsLock", "ShiftLeft", "ControlLeft", "MetaLeft", "A
 const ru = [ 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '\\', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.']
 let arr =[];
 let en = true;
+let caps = false;
 
 keyArr = [];
 
@@ -69,6 +70,10 @@ data.forEach(el => {
       if (item.code === "Backslash") {
         char.classList.add("backslash")
       }
+      if (item.code === "Backspace") {
+        char.textContent = "Delete"
+        char.classList.add("delete")
+      }
       arr2.forEach(el => {
         if(el === item.key) {
           char.classList.add("extended")
@@ -106,6 +111,11 @@ function runOnKeys() {
      if((arrChars.includes("ShiftLeft", "ControlLeft")) && (arrChars.length ===  2)) {
       changeLang () 
      }
+
+     if(arrChars.includes("CapsLock")) {
+      capsChar () 
+     }
+     
   });
 
   document.addEventListener("keyup", function (event) {
@@ -131,7 +141,8 @@ document.querySelectorAll(".char").forEach((el) => {
   el.addEventListener("click", () =>  {
     document.querySelectorAll(".char").forEach((item) => {
   });
-    if (!(specials.includes(el.getAttribute("code")))){
+
+  if (!(specials.includes(el.getAttribute("code")))){
     arr.push(el.textContent);
     inputField.innerText = arr.join("")
   }
@@ -140,6 +151,10 @@ document.querySelectorAll(".char").forEach((el) => {
     arr.pop();
     inputField.value= arr.join("")
   }
+  if (el.getAttribute("code") === "CapsLock"){
+    capsChar ()
+  }
+
   })
 })
 
@@ -152,7 +167,6 @@ inputField.value= arr.join("")
 
 
 function changeLang () {
-
   if (en) {
     document.querySelectorAll(".char").forEach((el) => {
       if (!(specials.includes(el.getAttribute("code")))) {
@@ -173,5 +187,30 @@ function changeLang () {
     })
   }
 }
+
+
+function capsChar () {
+    if(!caps){    
+      document.querySelectorAll(".char").forEach((el) => {
+        if (!(specials.includes(el.getAttribute("code")))){ 
+      el.textContent = el.textContent.toLocaleUpperCase()
+    }
+      caps = true
+    })}
+
+    else{
+      document.querySelectorAll(".char").forEach((el) => {
+        if (!(specials.includes(el.getAttribute("code")))){
+        el.textContent = el.textContent.toLowerCase()
+      }
+        caps = false
+    })
+  }
+}
+
+
 }
 getData();
+
+
+
