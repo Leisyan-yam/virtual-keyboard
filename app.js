@@ -1,16 +1,16 @@
 let arr2 = ['Backspace', 'Tab', 'CapsLock', ' ', 'Meta', 'Shift', 'Enter', '\\']
 const specials = [ "Tab", "CapsLock", "ShiftLeft", "ControlLeft", "MetaLeft", "AltLeft", "AltRight", "ControlRight", "ArrowLeft", "ArrowUp", "ArrowDown", "ArrowRight", "ShiftRight", "Enter", "Backspace" ]
-
+const ru = [ 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '\\', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.']
 let arr =[];
-
+let en = true;
 
 keyArr = [];
 
-document.onkeydown = (event) => {
-  console.log(event.code);
-  keyArr.push(event.code);
-  console.log(keyArr)
-}
+// document.onkeydown = (event) => {
+//   console.log(event.code);
+//   keyArr.push(event.key);
+//   console.log(keyArr)
+// }
 
 const keyboardContainer = document.createElement("div");
 keyboardContainer.classList.add("main-container");
@@ -34,8 +34,11 @@ data.forEach(el => {
   el.forEach(item => {
   const char = document.createElement("div");
   char.classList.add("char");
+  char.setAttribute("code", `${item.code}`);
+  char.setAttribute("ru", `${item.ru}`);
+  char.setAttribute("en", `${item.key}`)
   char.textContent = `${(item.key)}`;
-  char.setAttribute("code", `${item.code}`)
+  
       if (item.code === "MetaLeft") {
         char.textContent = "Win";
       }
@@ -78,18 +81,6 @@ data.forEach(el => {
       row.appendChild(char);
 })})
 
-document.onkeydown = (event) => {
-  let key = document.querySelector(`.char[code = ${event.code}]`)
-  if (!(specials.includes(key.getAttribute("code")))){
-    arr.push(key.textContent);
-    inputField.innerText = arr.join("");
-  }
-  if(key.getAttribute("code") === "Backspace") {
-    arr.pop();
-    inputField.innerText = arr.join("")
-  }
-}
-
 
 function runOnKeys() {
   let arrChars = [];                   
@@ -102,11 +93,25 @@ function runOnKeys() {
           el.classList.add("active")
         }
       })
-    })
+      let key = document.querySelector(`.char[code = ${event.code}]`)
+      if (!(specials.includes(key.getAttribute("code")))){
+        arr.push(key.textContent);
+        inputField.innerText = arr.join("");
+      }
+      if(key.getAttribute("code") === "Backspace") {
+        arr.pop();
+        inputField.innerText = arr.join("")
+      }
+    })    
+     if((arrChars.includes("ShiftLeft", "ControlLeft")) && (arrChars.length ===  2)) {
+      changeLang () 
+     }
   });
 
   document.addEventListener("keyup", function (event) {
       if (arrChars.length == 0) return; 
+
+
       arrChars.forEach((item) => {
         document.querySelectorAll(".char").forEach((el) => {
           if (el.getAttribute("code") === item ){
@@ -118,21 +123,22 @@ function runOnKeys() {
   });
 }
 
-runOnKeys ()
+ runOnKeys()
+
+
 
 document.querySelectorAll(".char").forEach((el) => {
   el.addEventListener("click", () =>  {
     document.querySelectorAll(".char").forEach((item) => {
-    // item.classList.remove("active");
-    // el.classList.add("active")
   });
     if (!(specials.includes(el.getAttribute("code")))){
     arr.push(el.textContent);
     inputField.innerText = arr.join("")
   }
   if(el.getAttribute("code") === "Backspace") {
+    arr = inputField.value.split('');
     arr.pop();
-    inputField.innerText = arr.join("")
+    inputField.value= arr.join("")
   }
   })
 })
@@ -140,11 +146,34 @@ document.querySelectorAll(".char").forEach((el) => {
 
 document.querySelector(".char[code = 'Backspace']").addEventListener("click", () => {
 arr = inputField.value.split('');
-console.log(arr)
 arr.pop();
-console.log(arr)
 inputField.value= arr.join("")
 })
+
+
+function changeLang () {
+
+  if (en) {
+    document.querySelectorAll(".char").forEach((el) => {
+      if (!(specials.includes(el.getAttribute("code")))) {
+          const lang  = el.getAttribute("ru");
+          el.textContent = lang
+      }
+    en = false
+    })
+  }
+
+  else{
+    document.querySelectorAll(".char").forEach((el) => {
+      if (!(specials.includes(el.getAttribute("code")))) {
+        const lang  = el.getAttribute("en");
+        el.textContent = lang
+      }
+    en = true
+    })
+  }
+
+}
 
 
 

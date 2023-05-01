@@ -33,7 +33,7 @@ body {
   -moz-box-shadow: 4px 4px 47px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 47px 0px rgba(34, 60, 80, 0.2);
   border-radius: 6px;
-  transition: all 1s;
+  transition: all .3s;
 }
 
 .active {

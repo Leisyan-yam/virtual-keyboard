@@ -6,7 +6,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "ё"
     },
     {
         "code": "Digit1",
@@ -14,7 +15,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "1"
     },
     {
         "code": "Digit2",
@@ -22,7 +24,9 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "2"
+        
     },
     {
         "code": "Digit3",
@@ -30,7 +34,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "3"
     },
     {
         "code": "Digit4",
@@ -38,7 +43,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "4"
     },
     {
         "code": "Digit5",
@@ -46,7 +52,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "5"
     },
     {
         "code": "Digit6",
@@ -54,7 +61,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "6"
     },
     {
         "code": "Digit7",
@@ -62,7 +70,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "7"
     },
     {
         "code": "Digit8",
@@ -70,7 +79,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "8"
     },
     {
         "code": "Digit9",
@@ -78,7 +88,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "9"
     },
     {
         "code": "Digit0",
@@ -86,7 +97,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "0"
     },
     {
         "code": "Minus",
@@ -94,7 +106,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "-"
     },
     {
         "code": "Equal",
@@ -102,7 +115,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "0"
     },
     {
         "code": "Backspace",
@@ -110,7 +124,8 @@
         "shift": false,
         "meta": false,
         "alt": false,
-        "ctrl": false
+        "ctrl": false,
+        "ru" : "Backspace"
     }
 ],
 [
@@ -120,7 +135,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Tab"
   },
   {
       "code": "KeyQ",
@@ -128,7 +144,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "й"
   },
   {
       "code": "KeyW",
@@ -136,7 +153,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ц"
   },
   {
       "code": "KeyE",
@@ -144,7 +162,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "у"
   },
   {
       "code": "KeyR",
@@ -152,7 +171,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "к"
   },
   {
       "code": "KeyT",
@@ -160,7 +180,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "е"
   },
   {
       "code": "KeyY",
@@ -168,7 +189,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "н"
   },
   {
       "code": "KeyU",
@@ -176,7 +198,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "г"
   },
   {
       "code": "KeyI",
@@ -184,7 +207,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ш"
   },
   {
       "code": "KeyO",
@@ -192,7 +216,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "щ"
   },
   {
       "code": "KeyP",
@@ -200,7 +225,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "з"
   },
   {
       "code": "BracketLeft",
@@ -208,7 +234,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "х"
   },
   {
       "code": "BracketRight",
@@ -216,7 +243,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ъ"
   },
   {
       "code": "Backslash",
@@ -224,7 +252,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "\\"
   }
 ],
 [
@@ -234,7 +263,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "CapsLock"
   },
   {
       "code": "KeyA",
@@ -242,7 +272,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ф"
   },
   {
       "code": "KeyS",
@@ -250,7 +281,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ы"
   },
   {
       "code": "KeyD",
@@ -258,7 +290,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "в"
   },
   {
       "code": "KeyF",
@@ -266,7 +299,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "а"
   },
   {
       "code": "KeyG",
@@ -274,7 +308,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "п"
   },
   {
       "code": "KeyH",
@@ -282,7 +317,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "р"
   },
   {
       "code": "KeyJ",
@@ -290,7 +326,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "о"
   },
   {
       "code": "KeyK",
@@ -298,7 +335,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "л"
   },
   {
       "code": "KeyL",
@@ -306,7 +344,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "д"
   },
   {
       "code": "Semicolon",
@@ -314,7 +353,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ж"
   },
   {
       "code": "Quote",
@@ -322,7 +362,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "э"
   },
   {
       "code": "Enter",
@@ -330,7 +371,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Enter"
   }
 ],
 [
@@ -340,7 +382,8 @@
       "shift": true,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Shift"
   },
   {
       "code": "KeyZ",
@@ -348,7 +391,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "я"
   },
   {
       "code": "KeyX",
@@ -356,7 +400,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ч"
   },
   {
       "code": "KeyC",
@@ -364,7 +409,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "с"
   },
   {
       "code": "KeyV",
@@ -372,7 +418,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "м"
   },
   {
       "code": "KeyB",
@@ -380,7 +427,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "и"
   },
   {
       "code": "KeyN",
@@ -388,7 +436,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "т"
   },
   {
       "code": "KeyM",
@@ -396,7 +445,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ь"
   },
   {
       "code": "Comma",
@@ -404,7 +454,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "б"
   },
   {
       "code": "Period",
@@ -412,7 +463,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ю"
   },
   {
       "code": "Slash",
@@ -420,7 +472,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "."
   },
   {
       "code": "ArrowUp",
@@ -428,7 +481,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ArrowUp"
   },
   {
       "code": "ShiftRight",
@@ -436,7 +490,8 @@
       "shift": true,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Shift"
   }
 ],
 [
@@ -446,7 +501,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": true
+      "ctrl": true,
+      "ru": "Control"
   },
   {
       "code": "MetaLeft",
@@ -454,7 +510,8 @@
       "shift": false,
       "meta": true,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Meta"
   },
   {
       "code": "AltLeft",
@@ -462,7 +519,8 @@
       "shift": false,
       "meta": false,
       "alt": true,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Alt"
   },
   {
       "code": "Space",
@@ -470,7 +528,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": " "
   },
   {
       "code": "AltRight",
@@ -478,7 +537,8 @@
       "shift": false,
       "meta": false,
       "alt": true,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "Alt"
   },
   {
       "code": "ArrowLeft",
@@ -486,7 +546,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ArrowLeft"
   },
   {
       "code": "ArrowDown",
@@ -494,7 +555,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ArrowDown"
   },
   {
       "code": "ArrowRight",
@@ -502,7 +564,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": false
+      "ctrl": false,
+      "ru": "ArrowRight"
   },
   {
       "code": "ControlRight",
@@ -510,7 +573,8 @@
       "shift": false,
       "meta": false,
       "alt": false,
-      "ctrl": true
+      "ctrl": true,
+      "ru": "Control"
   }
 ]
 ]
