@@ -172,10 +172,6 @@ function changeLang () {
     en = true
     })
   }
-
 }
-
-
-
 }
 getData();
