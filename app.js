@@ -7,11 +7,6 @@ let caps = false;
 
 keyArr = [];
 
-// document.onkeydown = (event) => {
-//   console.log(event.code);
-//   keyArr.push(event.key);
-//   console.log(keyArr)
-// }
 
 const keyboardContainer = document.createElement("div");
 keyboardContainer.classList.add("main-container");
