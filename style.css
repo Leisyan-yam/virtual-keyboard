@@ -33,6 +33,15 @@ body {
   -moz-box-shadow: 4px 4px 47px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 47px 0px rgba(34, 60, 80, 0.2);
   border-radius: 6px;
+  transition: all 1s;
+}
+
+.active {
+  background-color: #d7aaaa;
+}
+
+.char:active {
+  background-color: #d7aaaa;
 }
 
 .row {
@@ -66,6 +75,3 @@ body {
   width: 48px;
 }
 
-.active {
-  background-color: rgb(215, 170, 170);
-}

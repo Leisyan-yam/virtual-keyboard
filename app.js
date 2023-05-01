@@ -66,7 +66,6 @@ data.forEach(el => {
       if (item.code === "Backslash") {
         char.classList.add("backslash")
       }
-
       arr2.forEach(el => {
         if(el === item.key) {
           char.classList.add("extended")
@@ -80,18 +79,53 @@ data.forEach(el => {
 })})
 
 document.onkeydown = (event) => {
-  document.querySelectorAll(".char").forEach((el) => {
-    el.classList.remove("active")
-  })
-  document.querySelector(`.char[code = ${event.code}]`).classList.add("active");
+  let key = document.querySelector(`.char[code = ${event.code}]`)
+  if (!(specials.includes(key.getAttribute("code")))){
+    arr.push(key.textContent);
+    inputField.innerText = arr.join("");
+  }
+  if(key.getAttribute("code") === "Backspace") {
+    arr.pop();
+    inputField.innerText = arr.join("")
+  }
 }
 
+
+function runOnKeys() {
+  let arrChars = [];                   
+  document.addEventListener("keydown", function (event) {
+      if (event.repeat) return;         
+      arrChars.push(event.code);        
+      arrChars.forEach((item) => {
+      document.querySelectorAll(".char").forEach((el) => {
+        if (el.getAttribute("code") === item ){
+          el.classList.add("active")
+        }
+      })
+    })
+  });
+
+  document.addEventListener("keyup", function (event) {
+      if (arrChars.length == 0) return; 
+      arrChars.forEach((item) => {
+        document.querySelectorAll(".char").forEach((el) => {
+          if (el.getAttribute("code") === item ){
+            el.classList.remove("active")
+          }
+        })
+      })
+      arrChars.length = 0;              
+  });
+}
+
+runOnKeys ()
 
 document.querySelectorAll(".char").forEach((el) => {
   el.addEventListener("click", () =>  {
     document.querySelectorAll(".char").forEach((item) => {
-    item.classList.remove("active");
-    el.classList.add("active")});
+    // item.classList.remove("active");
+    // el.classList.add("active")
+  });
     if (!(specials.includes(el.getAttribute("code")))){
     arr.push(el.textContent);
     inputField.innerText = arr.join("")
