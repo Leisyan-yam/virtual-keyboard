@@ -18,7 +18,7 @@ document.body.insertBefore(inputField, keyboardContainer);
 
 const title = document.createElement("h2");
 inputField.classList.add("title");
-title.textContent = "Для переключения раскладки используйте кобинацию Shif + Ctrl"
+title.textContent = "Для переключения раскладки используйте комбинацию Shif + Ctrl"
 document.body.insertBefore(title, inputField);
 
 
