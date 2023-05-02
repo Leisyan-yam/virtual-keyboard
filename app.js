@@ -16,6 +16,10 @@ const inputField = document.createElement("textarea");
 inputField.classList.add("input");
 document.body.insertBefore(inputField, keyboardContainer);
 
+const title = document.createElement("h2");
+inputField.classList.add("title");
+title.textContent = "Для переключения раскладки используйте кобинацию Shif + Ctrl"
+document.body.insertBefore(title, inputField);
 
 
 async function getData() {  
