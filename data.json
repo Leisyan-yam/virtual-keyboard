@@ -1,0 +1,580 @@
+[
+  [
+    {
+        "code": "Backquote",
+        "key": "`",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "ё"
+    },
+    {
+        "code": "Digit1",
+        "key": "1",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "1"
+    },
+    {
+        "code": "Digit2",
+        "key": "2",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "2"
+        
+    },
+    {
+        "code": "Digit3",
+        "key": "3",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "3"
+    },
+    {
+        "code": "Digit4",
+        "key": "4",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "4"
+    },
+    {
+        "code": "Digit5",
+        "key": "5",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "5"
+    },
+    {
+        "code": "Digit6",
+        "key": "6",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "6"
+    },
+    {
+        "code": "Digit7",
+        "key": "7",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "7"
+    },
+    {
+        "code": "Digit8",
+        "key": "8",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "8"
+    },
+    {
+        "code": "Digit9",
+        "key": "9",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "9"
+    },
+    {
+        "code": "Digit0",
+        "key": "0",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "0"
+    },
+    {
+        "code": "Minus",
+        "key": "-",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "-"
+    },
+    {
+        "code": "Equal",
+        "key": "=",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "0"
+    },
+    {
+        "code": "Backspace",
+        "key": "Backspace",
+        "shift": false,
+        "meta": false,
+        "alt": false,
+        "ctrl": false,
+        "ru" : "Backspace"
+    }
+],
+[
+  {
+      "code": "Tab",
+      "key": "Tab",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "Tab"
+  },
+  {
+      "code": "KeyQ",
+      "key": "q",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "й"
+  },
+  {
+      "code": "KeyW",
+      "key": "w",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ц"
+  },
+  {
+      "code": "KeyE",
+      "key": "e",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "у"
+  },
+  {
+      "code": "KeyR",
+      "key": "r",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "к"
+  },
+  {
+      "code": "KeyT",
+      "key": "t",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "е"
+  },
+  {
+      "code": "KeyY",
+      "key": "y",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "н"
+  },
+  {
+      "code": "KeyU",
+      "key": "u",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "г"
+  },
+  {
+      "code": "KeyI",
+      "key": "i",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ш"
+  },
+  {
+      "code": "KeyO",
+      "key": "o",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "щ"
+  },
+  {
+      "code": "KeyP",
+      "key": "p",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "з"
+  },
+  {
+      "code": "BracketLeft",
+      "key": "[",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "х"
+  },
+  {
+      "code": "BracketRight",
+      "key": "]",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ъ"
+  },
+  {
+      "code": "Backslash",
+      "key": "\\",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "\\"
+  }
+],
+[
+  {
+      "code": "CapsLock",
+      "key": "CapsLock",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "CapsLock"
+  },
+  {
+      "code": "KeyA",
+      "key": "a",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ф"
+  },
+  {
+      "code": "KeyS",
+      "key": "s",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ы"
+  },
+  {
+      "code": "KeyD",
+      "key": "d",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "в"
+  },
+  {
+      "code": "KeyF",
+      "key": "f",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "а"
+  },
+  {
+      "code": "KeyG",
+      "key": "g",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "п"
+  },
+  {
+      "code": "KeyH",
+      "key": "h",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "р"
+  },
+  {
+      "code": "KeyJ",
+      "key": "j",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "о"
+  },
+  {
+      "code": "KeyK",
+      "key": "k",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "л"
+  },
+  {
+      "code": "KeyL",
+      "key": "l",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "д"
+  },
+  {
+      "code": "Semicolon",
+      "key": ";",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ж"
+  },
+  {
+      "code": "Quote",
+      "key": "'",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "э"
+  },
+  {
+      "code": "Enter",
+      "key": "Enter",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "Enter"
+  }
+],
+[
+  {
+      "code": "ShiftLeft",
+      "key": "Shift",
+      "shift": true,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "Shift"
+  },
+  {
+      "code": "KeyZ",
+      "key": "z",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "я"
+  },
+  {
+      "code": "KeyX",
+      "key": "x",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ч"
+  },
+  {
+      "code": "KeyC",
+      "key": "c",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "с"
+  },
+  {
+      "code": "KeyV",
+      "key": "v",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "м"
+  },
+  {
+      "code": "KeyB",
+      "key": "b",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "и"
+  },
+  {
+      "code": "KeyN",
+      "key": "n",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "т"
+  },
+  {
+      "code": "KeyM",
+      "key": "m",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ь"
+  },
+  {
+      "code": "Comma",
+      "key": ",",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "б"
+  },
+  {
+      "code": "Period",
+      "key": ".",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ю"
+  },
+  {
+      "code": "Slash",
+      "key": "/",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "."
+  },
+  {
+      "code": "ArrowUp",
+      "key": "ArrowUp",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ArrowUp"
+  },
+  {
+      "code": "ShiftRight",
+      "key": "Shift",
+      "shift": true,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "Shift"
+  }
+],
+[
+  {
+      "code": "ControlLeft",
+      "key": "Control",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": true,
+      "ru": "Control"
+  },
+  {
+      "code": "MetaLeft",
+      "key": "Meta",
+      "shift": false,
+      "meta": true,
+      "alt": false,
+      "ctrl": false,
+      "ru": "Meta"
+  },
+  {
+      "code": "AltLeft",
+      "key": "Alt",
+      "shift": false,
+      "meta": false,
+      "alt": true,
+      "ctrl": false,
+      "ru": "Alt"
+  },
+  {
+      "code": "Space",
+      "key": " ",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": " "
+  },
+  {
+      "code": "AltRight",
+      "key": "Alt",
+      "shift": false,
+      "meta": false,
+      "alt": true,
+      "ctrl": false,
+      "ru": "Alt"
+  },
+  {
+      "code": "ArrowLeft",
+      "key": "ArrowLeft",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ArrowLeft"
+  },
+  {
+      "code": "ArrowDown",
+      "key": "ArrowDown",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ArrowDown"
+  },
+  {
+      "code": "ArrowRight",
+      "key": "ArrowRight",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": false,
+      "ru": "ArrowRight"
+  },
+  {
+      "code": "ControlRight",
+      "key": "Control",
+      "shift": false,
+      "meta": false,
+      "alt": false,
+      "ctrl": true,
+      "ru": "Control"
+  }
+]
+]
